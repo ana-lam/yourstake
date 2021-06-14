@@ -26,7 +26,8 @@ To regularly run the script unsupervised I would use an ETL tool such as Apache 
 3. List of quality checks you would want to write when putting into web app, and bullet point outline of how.
 
 <br>
-Quality Check for ETL pipeline - Ensure expected or necessary data is there and usable.
+
+Quality Check for ETL pipeline - Ensure expected or necessary data is there and usable
 * Account for edge cases and either replace or throw out incomplete data when data is extracted.
 * Create predicates with descriptive print error messages that checks data type to ensure data is in usable condition.
 * Create a log process. I would log names and times of file extraction to monitor ETL extraction and transformation.
