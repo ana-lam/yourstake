@@ -18,6 +18,9 @@ Code to produce CSV is `yourstake.py` and the CSV is saved as `EPA_EEA_table.csv
 <br>
 To make my script robust and run unsupervised, I would scale my query and content-to-pandas functions to take inputs from different data sources if possible to reach the goal of gathering global toxic air pollution data in a methodologically consistent manner. This would necessitate doing more research of different PRTR databases. I would write functions to conduct further necessary data transformations and cleaning to account for edge cases that can throw errors later down the ETL workflow and to standardize toxic air pollution metrics across inventories such as the EPA's and EEA's. I would also load the processed data into another destination such as SQL to hold standardized global toxic air pollution metrics.
 
+<br>
+<br>
+
 To regularly run the script unsupervised I would use an ETL tool such as Apache Airflow to manage the workflow and schedule jobs based on database update needs and source data update frequency.
 <br>
 
