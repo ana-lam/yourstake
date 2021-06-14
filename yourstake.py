@@ -21,6 +21,10 @@ def search_query_URL(base_URL, tables, reporting_year, output_fileformat):
         tables: String. Name of tables with relevant data we want to pull.
         reporting_year: Int. Desired year of report.
         output_fileformat: String. Desired output file format.
+
+    Note: The URL output limit is 100000 rows at a time, would need to create a for loop
+    to pull all rows. We can generate the count for the table by changing output_fileformat to "COUNT"
+    and pulling rows in 100000 chunks with for loop.
     """
     URL = base_URL + "/".join(tables) + "/" + "reporting_year" + "/" + str(reporting_year) + "/" + output_fileformat
     return URL
