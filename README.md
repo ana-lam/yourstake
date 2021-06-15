@@ -8,7 +8,7 @@ YourStake provides data on social and environmental issues to allow investors to
 1. Using the language and libraries of your choice, write code to produce a CSV of company names, amount of toxic air pollution, and description of details (e.g. facility locations, purpose of facility, names of chemicals released…).
 
 <br>
-Code to produce CSVs is `yourstake.py` and the CSV is saved as `EPA_EEA_table.csv`. CSV of parent company total toxic air releases is saved as `EPA_EEA_parentco_table.csv`
+Code to produce CSVs is `yourstake.py` and the CSV is saved as `EPA_EEA_table.csv`. CSV of parent company total toxic air releases is saved as `EPA_EEA_parentco_table.csv`.
 <br>
 
 <br>
