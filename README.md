@@ -42,8 +42,8 @@ Quality Check for Loaded Data - Ensure loaded data to be used in web app is vali
 data in the final destination with data being loaded in.
 
 Web App Integration Quality Check - Ensure web app holds updated data
-* Generate log for data integration errors and fails with messages
-* Maybe perform data visualization to spot unexpected data values/outliers that are outside of expected or predicted data values or trends
+* Generate log for data integration errors and fails with messages.
+* Maybe perform data visualization to spot unexpected data values/outliers that are outside of expected or predicted data values or trends.
 <br>
 
 <br>
